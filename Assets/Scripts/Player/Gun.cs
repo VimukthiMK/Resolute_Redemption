@@ -50,6 +50,7 @@ public class Gun : MonoBehaviour
 
             Quaternion impactRotation = Quaternion.LookRotation(hit.normal);
             GameObject impact = Instantiate(impactEffect, hit.point, impactRotation);
+            impact.transform.parent = hit.transform;    
             Destroy(impact, 5);
         }
 
