@@ -10,6 +10,7 @@ public class PauseMenu : MonoBehaviour
     public FirstPersonController movementScript;
     public GameObject PauseMenuUI;
 
+
     // Update is called once per frame
     void Update()
     {
