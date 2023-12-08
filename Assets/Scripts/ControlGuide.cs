@@ -14,13 +14,14 @@ public class ControlGuide : MonoBehaviour
         if (popupText != null)
         {
             popupText.text = "Welcome to the Resolute Redemption!\n\n\nControls:\n" +
-                "- Use 'W', 'A', 'S', 'D' to move.\n\n" +
-                "- Hold 'Left Shift' to run.\n\n" +
-                "- Press 'Space' to jump.\n\n" +
-                "- Press 'Left Ctrl' to crouch.\n\n" +
-                "- Move the mouse to look around.\n\n\n" +
-                "- Have fun exploring.\n\n\n\n\n" +
-                "Press 'Enter' to start playing."; // Display the initial message
+                "- Use 'W', 'A', 'S', 'D' to move.\n" +
+                "- Hold 'Left Shift' to run.\n" +
+                "- Press 'Space' to jump.\n" +
+                "- Press 'Left Ctrl' to crouch.\n" +
+                "- Move the mouse to look around.\n" +
+                "- Press Left mouse Button to Shoot.\n" +
+                "- Press Right mouse Button to Aim.\n\n\n" +
+                "- Press 'Enter' to start playing."; // Display the initial message
         }
         else
         {
