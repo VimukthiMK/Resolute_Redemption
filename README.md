@@ -25,7 +25,7 @@ To get started with Resolute Redemption, follow these steps:
 
 ## Assets 
 
-
+The Resolute Redemption project utilizes assets from the Unity Asset Store to enhance the game's visuals, audio, and overall experience.
 
 
 
